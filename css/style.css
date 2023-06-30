@@ -91,7 +91,7 @@
 .main .con3 .collectionItem ul li button{width: 180px; height: 55px; background: #D9C7C2; border: none;margin-top: 20px;margin-bottom: 30px;cursor: pointer;margin-left: 70px;}
 /* con3 스와이퍼 */
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{ bottom: 0px;}
-.swiper-pagination-bullet-active{color: #5E2E2E;}
+.swiper-pagination-bullet{width: 15px; height: 15px;}
 :root {
     --swiper-theme-color: #5E2E2E;
 }

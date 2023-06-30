@@ -15,5 +15,8 @@ var swiper = new Swiper(".myVisual", {
     pagination: {
       el: ".swiper-pagination",
     },
+    autoplay: {
+      delay: 3000,
+    },
     loop:true
   });
