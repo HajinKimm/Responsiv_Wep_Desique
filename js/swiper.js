@@ -9,3 +9,11 @@ var swiper = new Swiper(".myVisual", {
       loop:true
     
   });
+
+
+  var swiper = new Swiper(".myMainCollect", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    loop:true
+  });
