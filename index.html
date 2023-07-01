@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
     <title>Desique</title>
 </head>
 
@@ -33,9 +34,11 @@
                         <li><a href="#"><i class="xi-user-o"></i></a></li>
                         <li><a href="#"><i class="xi-cart-o"></i></a></li>
                     </ul>
+                    <!-- <p class="close"><i class="xi-close"></i></p> -->
                 </div>
+                <p class="all-menu"><i class="xi-bars"></i></p>
             </div>
-            <div class="headerLine"></div>
+            <div class="headerLine bg"></div>
         </header>
         <!-- section -->
         <section id="visual">
@@ -90,6 +93,7 @@
         <!-- main -->
         <main id="container" class="main">
             <section id="content">
+                <!-- con1 -->
                 <div class="con-box con1">
                     <div class="menu">
                         <ul>
@@ -106,53 +110,100 @@
                     <div class="inner">
                         <h2>BEST SELLERS</h2>
                         <b>전체보기<i class="xi-plus"></i></b>
-                        <ul class="bestSellersItem">
-                            <li>
-                                <a href="#">
-                                    <span>1</span><img src="./images/bestsSelect1.png" alt="버터 컬렉션 3종 SET">
-                                    <h4>버터 컬렉션 3종 SET</h4>
-                                    <p><em>63,000 원</em>49,000 원</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>2</span><img src="./images/bestsSelect2.png" alt="크림 드 버터 틴트">
-                                    <h4>크림 드 버터 틴트</h4>
-                                    <p><em>17,000 원</em>13,600 원</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>3</span><img src="./images/bestsSelect3.png" alt="시럽 네일 컬러">
-                                    <h4>시럽 네일 컬러</h4>
-                                    <p><em>12,000 원</em>9,400 원</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>4</span><img src="./images/bestsSelect4.png" alt="초콜릿 퍼지 기획 SET">
-                                    <h4>초콜릿 퍼지 기획 SET</h4>
-                                    <p><em>34,000 원</em>27,900 원</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span>5</span><img src="./images/bestsSelect5.png" alt="프로 컨실러 팔레트">
-                                    <h4>프로 컨실러 팔레트</h4>
-                                    <p><em>29,000 원</em>23,200 원</p>
-                                </a>
-                            </li>
-                        </ul>
+                        <div class="swiper myBestSellers">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <span>1</span><img src="./images/bestsSelect1.png" alt="버터 컬렉션 3종 SET">
+                                        <h4>버터 컬렉션 3종 SET</h4>
+                                        <p><em>63,000 원</em>49,000 원</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <span>2</span><img src="./images/bestsSelect2.png" alt="크림 드 버터 틴트">
+                                        <h4>크림 드 버터 틴트</h4>
+                                        <p><em>17,000 원</em>13,600 원</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <span>3</span><img src="./images/bestsSelect3.png" alt="시럽 네일 컬러">
+                                        <h4>시럽 네일 컬러</h4>
+                                        <p><em>12,000 원</em>9,400 원</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <span>4</span><img src="./images/bestsSelect4.png" alt="초콜릿 퍼지 기획 SET">
+                                        <h4>초콜릿 퍼지 기획 SET</h4>
+                                        <p><em>34,000 원</em>27,900 원</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <span>5</span><img src="./images/bestsSelect5.png" alt="프로 컨실러 팔레트">
+                                        <h4>프로 컨실러 팔레트</h4>
+                                        <p><em>29,000 원</em>23,200 원</p>
+                                    </a>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <span>6</span><img src="./images/bestsSelect1.png" alt="버터 컬렉션 3종 SET">
+                                        <h4>버터 컬렉션 3종 SET</h4>
+                                        <p><em>63,000 원</em>49,000 원</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <span>7</span><img src="./images/bestsSelect2.png" alt="크림 드 버터 틴트">
+                                        <h4>크림 드 버터 틴트</h4>
+                                        <p><em>17,000 원</em>13,600 원</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <span>8</span><img src="./images/bestsSelect3.png" alt="시럽 네일 컬러">
+                                        <h4>시럽 네일 컬러</h4>
+                                        <p><em>12,000 원</em>9,400 원</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <span>9</span><img src="./images/bestsSelect4.png" alt="초콜릿 퍼지 기획 SET">
+                                        <h4>초콜릿 퍼지 기획 SET</h4>
+                                        <p><em>34,000 원</em>27,900 원</p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <span>10</span><img src="./images/bestsSelect5.png" alt="프로 컨실러 팔레트">
+                                        <h4>프로 컨실러 팔레트</h4>
+                                        <p><em>29,000 원</em>23,200 원</p>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <!-- <ul class="bestSellersItem">
+                        </ul> -->
                     </div>
                 </div>
+                <!-- con2 -->
                 <div class="con-box con2">
                     <div class="inner">
-                        <strong>NEWPRODUCTS</strong>
-                        <h3>Smooth like butter,<br>melting soft mood</h3>
-                        <p>버터 한 조각 넣은 듯 부드럽고 뽀얀 soft Fit & Tone<br>바르는 순간 녹아드는 소프트 핏 버터 무드를 느껴보세요</p>
-                        <img src="./images//con2Img1.png" alt="NEWPRODUCTS">
-                        <span>자세히보기</span>
-                        <img class="arrow" src="./images/arrowWhite.png" alt="arrow">
+                        <div class="textWrap">
+                            <strong>NEWPRODUCTS</strong>
+                            <h3>Smooth like butter,<br>melting soft mood</h3>
+                            <p>버터 한 조각 넣은 듯 부드럽고 뽀얀 soft Fit & Tone<br>바르는 순간 녹아드는 소프트 핏 버터 무드를 느껴보세요</p>
+                        </div>
+                        <div class="ImgWrap">
+                            <img src="./images//con2Img1.png" alt="NEWPRODUCTS">
+                            <span>자세히보기</span>
+                            <img class="arrow" src="./images/arrowWhite.png" alt="arrow">
+                        </div>
                     </div>
                 </div>
                 <div class="con-box con3">
@@ -162,192 +213,161 @@
                         <!-- 스와이퍼 -->
                         <div class="swiper myMainCollect">
                             <div class="swiper-wrapper">
-                              <div class="swiper-slide">
-                                <div class="pack">
-                                    <div class="collectImg">
-                                        <img src="./images/collection1.png" alt="collection1">
-                                        <span>자세히보기</span>
-                                        <img class="arrow" src="./images/arrowWhite.png" alt="arrow">
-                                    </div>
-                                    <div class="collectionItem">
-                                        <ul>
-                                            <li>
-                                                <img src="./images/collection1item1.png" alt="버터 컬렉션 3종 SET">
-                                                <strong>버터 컬렉션 3종 SET</strong>
-                                                <span>49,000 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                            <li>
-                                                <img src="./images/collection1item1.png" alt="섀도우 팔레트 17 버터 크림">
-                                                <strong>섀도우 팔레트 17 버터 크림</strong>
-                                                <span>27,200 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                            <li>
-                                                <img src="./images/collection1item1.png" alt="버터 컬렉션 3종 SET">
-                                                <strong>버터 컬렉션 3종 SET</strong>
-                                                <span>49,000 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                            <li>
-                                                <img src="./images/collection1item1.png" alt="섀도우 팔레트 17 버터 크림">
-                                                <strong>섀도우 팔레트 17 버터 크림</strong>
-                                                <span>27,200 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <div class="pack">
-                                    <div class="collectImg">
-                                        <img src="./images/collection2.png" alt="collection2">
-                                        <span>자세히보기</span>
-                                        <img class="arrow" src="./images/arrowWhite.png" alt="arrow">
-                                    </div>
-                                    <div class="collectionItem">
-                                        <ul>
-                                            <li>
-                                                <img src="./images/collection2item1.png" alt="14 피치 스퀴즈 섀도우 팔레트">
-                                                <strong>14 피치 스퀴즈 섀도우 팔레트</strong>
-                                                <span>27,200 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                            <li>
-                                                <img src="./images/collection2item1.png" alt="03 피치 블렌딩 무드 치크">
-                                                <strong>03 피치 블렌딩 무드 치크</strong>
-                                                <span>19,200 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                            <li>
-                                                <img src="./images/collection2item1.png" alt="워터 블러 틴트">
-                                                <strong>워터 블러 틴트</strong>
-                                                <span>10,900 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                            <li>
-                                                <img src="./images/collection2item1.png" alt="시럽 네일 컬러">
-                                                <strong>시럽 네일 컬러</strong>
-                                                <span>9,400 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                        </ul>
+                                <div class="swiper-slide">
+                                    <div class="pack">
+                                        <div class="collectImg">
+                                            <img src="./images/collection1.png" alt="collection1">
+                                            <span>자세히보기</span>
+                                            <img class="arrow" src="./images/arrowWhite.png" alt="arrow">
+                                        </div>
+                                        <div class="collectionItem">
+                                            <ul>
+                                                <li>
+                                                    <img src="./images/collection1item1.png" alt="버터 컬렉션 3종 SET">
+                                                    <strong>버터 컬렉션 3종 SET</strong>
+                                                    <span>49,000 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/collection1item2.png" alt="섀도우 팔레트 17 버터 크림">
+                                                    <strong>섀도우 팔레트 17 버터 크림</strong>
+                                                    <span>27,200 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/collection1item3.png" alt="버터 컬렉션 3종 SET">
+                                                    <strong>버터 컬렉션 3종 SET</strong>
+                                                    <span>49,000 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/collection1item4.png" alt="섀도우 팔레트 17 버터 크림">
+                                                    <strong>섀도우 팔레트 17 버터 크림</strong>
+                                                    <span>27,200 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <div class="pack">
-                                    <div class="collectImg">
-                                        <img src="./images/collection3.png" alt="collection3">
-                                        <span>자세히보기</span>
-                                        <img class="arrow" src="./images/arrowWhite.png" alt="arrow">
-                                    </div>
-                                    <div class="collectionItem">
-                                        <ul>
-                                            <li>
-                                                <img src="./images/collection3item1.png" alt="12 웜 블렌딩 섀도우 팔레트">
-                                                <strong>12 웜 블렌딩 섀도우 팔레트</strong>
-                                                <span>27,200 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                            <li>
-                                                <img src="./images/collection3item1.png" alt="13 쿨 블렌딩 섀도우 팔레트">
-                                                <strong>13 쿨 블렌딩 섀도우 팔레트</strong>
-                                                <span>27,200 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                            <li>
-                                                <img src="./images/collection3item1.png" alt="01 웜 블렌딩 무드 치크">
-                                                <strong>01 웜 블렌딩 무드 치크</strong><span>19,200 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                            <li>
-                                                <img src="./images/collection3item1.png" alt="02 쿨 블렌딩 무드 치크">
-                                                <strong>02 쿨 블렌딩 무드 치크</strong>
-                                                <span>19,200 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <div class="pack">
-                                    <div class="collectImg">
-                                        <img src="./images/collection4.png" alt="collection4">
-                                        <span>자세히보기</span>
-                                        <img class="arrow" src="./images/arrowWhite.png" alt="arrow">
-                                    </div>
-                                    <div class="collectionItem">
-                                        <ul>
-                                            <li>
-                                                <img src="./images/collection4item1.png" alt="버터 컬렉션 3종 SET">
-                                                <strong>버터 컬렉션 3종 SET</strong>
-                                                <span>49,000 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                            <li>
-                                                <img src="./images/collection4item1.png" alt="섀도우 팔레트 17 버터 크림">
-                                                <strong>섀도우 팔레트 17 버터 크림</strong>
-                                                <span>27,200 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                            <li>
-                                                <img src="./images/collection4item1.png" alt="크림 드 버터 틴트">
-                                                <strong>크림 드 버터 틴트</strong>
-                                                <span>13,600 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                            <li>
-                                                <img src="./images/collection4item1.png" alt="시럽 네일 컬러">
-                                                <strong>시럽 네일 컬러</strong>
-                                                <span>9,400 원</span>
-                                                <button>Details</button>
-                                            </li>
-                                        </ul>
+                                <div class="swiper-slide">
+                                    <div class="pack">
+                                        <div class="collectImg">
+                                            <img src="./images/collection2.png" alt="collection2">
+                                            <span>자세히보기</span>
+                                            <img class="arrow" src="./images/arrowWhite.png" alt="arrow">
+                                        </div>
+                                        <div class="collectionItem">
+                                            <ul>
+                                                <li>
+                                                    <img src="./images/collection2item1.png" alt="14 피치 스퀴즈 섀도우 팔레트">
+                                                    <strong>14 피치 스퀴즈 섀도우 팔레트</strong>
+                                                    <span>27,200 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/collection2item2.png" alt="03 피치 블렌딩 무드 치크">
+                                                    <strong>03 피치 블렌딩 무드 치크</strong>
+                                                    <span>19,200 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/collection2item3.png" alt="워터 블러 틴트">
+                                                    <strong>워터 블러 틴트</strong>
+                                                    <span>10,900 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/collection2item4.png" alt="시럽 네일 컬러">
+                                                    <strong>시럽 네일 컬러</strong>
+                                                    <span>9,400 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                              </div>
+                                <div class="swiper-slide">
+                                    <div class="pack">
+                                        <div class="collectImg">
+                                            <img src="./images/collection3.png" alt="collection3">
+                                            <span>자세히보기</span>
+                                            <img class="arrow" src="./images/arrowWhite.png" alt="arrow">
+                                        </div>
+                                        <div class="collectionItem">
+                                            <ul>
+                                                <li>
+                                                    <img src="./images/collection3item1.png" alt="12 웜 블렌딩 섀도우 팔레트">
+                                                    <strong>12 웜 블렌딩 섀도우 팔레트</strong>
+                                                    <span>27,200 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/collection3item2.png" alt="13 쿨 블렌딩 섀도우 팔레트">
+                                                    <strong>13 쿨 블렌딩 섀도우 팔레트</strong>
+                                                    <span>27,200 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/collection3item3.png" alt="01 웜 블렌딩 무드 치크">
+                                                    <strong>01 웜 블렌딩 무드 치크</strong><span>19,200 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/collection3item4.png" alt="02 쿨 블렌딩 무드 치크">
+                                                    <strong>02 쿨 블렌딩 무드 치크</strong>
+                                                    <span>19,200 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="pack">
+                                        <div class="collectImg">
+                                            <img src="./images/collection4.png" alt="collection4">
+                                            <span>자세히보기</span>
+                                            <img class="arrow" src="./images/arrowWhite.png" alt="arrow">
+                                        </div>
+                                        <div class="collectionItem">
+                                            <ul>
+                                                <li>
+                                                    <img src="./images/collection4item1.png" alt="버터 컬렉션 3종 SET">
+                                                    <strong>버터 컬렉션 3종 SET</strong>
+                                                    <span>49,000 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/collection4item2.png" alt="섀도우 팔레트 17 버터 크림">
+                                                    <strong>섀도우 팔레트 17 버터 크림</strong>
+                                                    <span>27,200 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/collection4item3.png" alt="크림 드 버터 틴트">
+                                                    <strong>크림 드 버터 틴트</strong>
+                                                    <span>13,600 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                                <li>
+                                                    <img src="./images/collection4item4.png" alt="시럽 네일 컬러">
+                                                    <strong>시럽 네일 컬러</strong>
+                                                    <span>9,400 원</span>
+                                                    <button>Details</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="swiper-pagination"></div>
-                          </div>
-                        <!-- <div class="pack">
-                            <div class="collectImg">
-                                <img src="./images/collection1.png" alt="collection1">
-                                <span>자세히보기</span>
-                                <img class="arrow" src="./images/arrowWhite.png" alt="arrow">
-                            </div>
-                            <div class="collectionItem">
-                                <ul>
-                                    <li>
-                                        <img src="./images/collection1item1.png" alt="버터 컬렉션 3종 SET">
-                                        <strong>버터 컬렉션 3종 SET</strong>
-                                        <span>49,000 원</span>
-                                        <button>Details</button>
-                                    </li>
-                                    <li>
-                                        <img src="./images/collection1item1.png" alt="섀도우 팔레트 17 버터 크림">
-                                        <strong>섀도우 팔레트 17 버터 크림</strong>
-                                        <span>27,200 원</span>
-                                        <button>Details</button>
-                                    </li>
-                                    <li>
-                                        <img src="./images/collection1item1.png" alt="버터 컬렉션 3종 SET">
-                                        <strong>버터 컬렉션 3종 SET</strong><span>49,000 </span>
-                                        <button>Details</button>
-                                    </li>
-                                    <li>
-                                        <img src="./images/collection1item1.png" alt="섀도우 팔레트 17 버터 크림">
-                                        <strong>섀도우 팔레트 17 버터 크림</strong>
-                                        <span>27,200 원</span>
-                                        <button>Details</button>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div> -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
                     </div>
                 </div>
+                <!-- main con4 -->
                 <div class="con-box con4">
                     <div class="inner">
                         <img src="./images/con4L.png" alt="YOUR TRUE INNER BEAUTY">
@@ -355,6 +375,7 @@
                         <p>DASIQUE<br>WAS BORN TO BLOSSOM<br>YOUR TRUE INNER BEAUTY</p>
                     </div>
                 </div>
+                <!-- main con5 -->
                 <div class="con-box con5">
                     <div class="inner">
                         <h2>REVIW</h2>
@@ -364,84 +385,181 @@
                             <li><a href="#">BLUSH</a></li>
                             <li><a href="#">NAIL</a></li>
                         </ul>
-                        <ul class="reviewList">
-                            <li>
-                                <a href="#">
-                                    <img src="./images/review1.png" alt="크림 드 로즈 틴트">
-                                    <div class="item">
-                                        <img src="./images/review1item.png" alt="크림 드 로즈 틴트">
-                                        <div class="text">
-                                            <strong>크림 드 로즈 틴트</strong>
-                                            <p><em>평점 </em>4.6 <em>리뷰 </em>5,007개</p>
+                        <div class="swiper myMainReview">
+                            <div class="swiper-wrapper ">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/review1.png" alt="크림 드 로즈 틴트">
+                                        <div class="item">
+                                            <img src="./images/review1item.png" alt="크림 드 로즈 틴트">
+                                            <div class="text">
+                                                <strong>크림 드 로즈 틴트</strong>
+                                                <p><em>평점 </em>4.6 <em>리뷰 </em>5,007개</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <p class="txt">색상이 진짜 너무 이뻐서 잘 사용하고 있어요.</p>
-                                    <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i> 2023.2.12</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="./images/review2.png" alt="쥬시 듀이 틴트">
-                                    <div class="item">
-                                        <img src="./images/review2item.png" alt="쥬시 듀이 틴트">
-                                        <div class="text">
-                                            <strong>쥬시 듀이 틴트</strong>
-                                            <p><em>평점 </em>4.6 <em>리뷰 </em>2,793개</p>
+                                        <p class="txt">색상이 진짜 너무 이뻐서 잘 사용하고 있어요.</p>
+                                        <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i
+                                                class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i>
+                                            2023.2.12
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/review2.png" alt="쥬시 듀이 틴트">
+                                        <div class="item">
+                                            <img src="./images/review2item.png" alt="쥬시 듀이 틴트">
+                                            <div class="text">
+                                                <strong>쥬시 듀이 틴트</strong>
+                                                <p><em>평점 </em>4.6 <em>리뷰 </em>2,793개</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <p class="txt">다른 색이랑 섞어서 바르려고 산건데 이것만 발라도 예뻐요! 진짜 색 존예입니다</p>
-                                    <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i> 2023.2.12</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="./images/review3.png" alt="프로 컨실러 팔레트">
-                                    <div class="item">
-                                        <img src="./images/review3item.png" alt="프로 컨실러 팔레트">
-                                        <div class="text">
-                                            <strong>프로 컨실러 팔레트</strong>
-                                            <p><em>평점 </em>4.6 <em>리뷰 </em>558개</p>
+                                        <p class="txt">다른 색이랑 섞어서 바르려고 산건데 이것만 발라도 예뻐요! 진짜 색 존예입니다</p>
+                                        <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i
+                                                class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i>
+                                            2023.2.12
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/review3.png" alt="프로 컨실러 팔레트">
+                                        <div class="item">
+                                            <img src="./images/review3item.png" alt="프로 컨실러 팔레트">
+                                            <div class="text">
+                                                <strong>프로 컨실러 팔레트</strong>
+                                                <p><em>평점 </em>4.6 <em>리뷰 </em>558개</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <p class="txt">퍼스널 컬러 진단받고 추천받아서 산건데 여름 쿨톤 라이트에게 너무 찰떡입니다.</p>
-                                    <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i> 2023.2.10</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="./images/review4.png" alt="버터 컬렉션 3종 set">
-                                    <div class="item">
-                                        <img src="./images/review4item.png" alt="버터 컬렉션 3종 set">
-                                        <div class="text">
-                                            <strong>버터 컬렉션 3종 set</strong>
-                                            <p><em>평점 </em>5.0 <em>리뷰 </em>4개</p>
+                                        <p class="txt">퍼스널 컬러 진단받고 추천받아서 산건데 여름 쿨톤 라이트에게 너무 찰떡입니다.</p>
+                                        <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i
+                                                class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i>
+                                            2023.2.10
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/review4.png" alt="버터 컬렉션 3종 set">
+                                        <div class="item">
+                                            <img src="./images/review4item.png" alt="버터 컬렉션 3종 set">
+                                            <div class="text">
+                                                <strong>버터 컬렉션 3종 set</strong>
+                                                <p><em>평점 </em>5.0 <em>리뷰 </em>4개</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <p class="txt">포장 상자가 진짜 버터 같아서 신기 했어요 ㅎㅎ 색상도 예쁘고 배송도 빨라서 좋아요</p>
-                                    <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i> 2023.2.10</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="./images/review5.png" alt="섀도우 팔레트 11 너무 예뻐요">
-                                    <div class="item">
-                                        <img src="./images/review5item.png" alt="섀도우 팔레트 11 너무 예뻐요">
-                                        <div class="text">
-                                            <strong>섀도우 팔레트 11 너무 예뻐요</strong>
-                                            <p><em>평점 </em>4.7 <em>리뷰 </em>848개</p>
+                                        <p class="txt">포장 상자가 진짜 버터 같아서 신기 했어요 ㅎㅎ 색상도 예쁘고 배송도 빨라서 좋아요</p>
+                                        <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i
+                                                class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i>
+                                            2023.2.10
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/review5.png" alt="섀도우 팔레트 11 너무 예뻐요">
+                                        <div class="item">
+                                            <img src="./images/review5item.png" alt="섀도우 팔레트 11 너무 예뻐요">
+                                            <div class="text">
+                                                <strong>섀도우 팔레트 11 너무 예뻐요</strong>
+                                                <p><em>평점 </em>4.7 <em>리뷰 </em>848개</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <p class="txt">배송도 빠르고 색상도 예쁘고 좋아요.</p>
-                                    <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i> 2023.2.08</p>
-                                </a>
-                            </li>
-                        </ul>
-                        <ul class="paging">
-                            <li class="on"></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
+                                        <p class="txt">배송도 빠르고 색상도 예쁘고 좋아요.</p>
+                                        <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i
+                                                class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i>
+                                            2023.2.08
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/review1.png" alt="크림 드 로즈 틴트">
+                                        <div class="item">
+                                            <img src="./images/review1item.png" alt="크림 드 로즈 틴트">
+                                            <div class="text">
+                                                <strong>크림 드 로즈 틴트</strong>
+                                                <p><em>평점 </em>4.6 <em>리뷰 </em>5,007개</p>
+                                            </div>
+                                        </div>
+                                        <p class="txt">색상이 진짜 너무 이뻐서 잘 사용하고 있어요.</p>
+                                        <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i
+                                                class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i>
+                                            2023.2.12
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/review2.png" alt="쥬시 듀이 틴트">
+                                        <div class="item">
+                                            <img src="./images/review2item.png" alt="쥬시 듀이 틴트">
+                                            <div class="text">
+                                                <strong>쥬시 듀이 틴트</strong>
+                                                <p><em>평점 </em>4.6 <em>리뷰 </em>2,793개</p>
+                                            </div>
+                                        </div>
+                                        <p class="txt">다른 색이랑 섞어서 바르려고 산건데 이것만 발라도 예뻐요! 진짜 색 존예입니다</p>
+                                        <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i
+                                                class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i>
+                                            2023.2.12
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/review3.png" alt="프로 컨실러 팔레트">
+                                        <div class="item">
+                                            <img src="./images/review3item.png" alt="프로 컨실러 팔레트">
+                                            <div class="text">
+                                                <strong>프로 컨실러 팔레트</strong>
+                                                <p><em>평점 </em>4.6 <em>리뷰 </em>558개</p>
+                                            </div>
+                                        </div>
+                                        <p class="txt">퍼스널 컬러 진단받고 추천받아서 산건데 여름 쿨톤 라이트에게 너무 찰떡입니다.</p>
+                                        <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i
+                                                class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i>
+                                            2023.2.10
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/review4.png" alt="버터 컬렉션 3종 set">
+                                        <div class="item">
+                                            <img src="./images/review4item.png" alt="버터 컬렉션 3종 set">
+                                            <div class="text">
+                                                <strong>버터 컬렉션 3종 set</strong>
+                                                <p><em>평점 </em>5.0 <em>리뷰 </em>4개</p>
+                                            </div>
+                                        </div>
+                                        <p class="txt">포장 상자가 진짜 버터 같아서 신기 했어요 ㅎㅎ 색상도 예쁘고 배송도 빨라서 좋아요</p>
+                                        <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i
+                                                class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i>
+                                            2023.2.10
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/review5.png" alt="섀도우 팔레트 11 너무 예뻐요">
+                                        <div class="item">
+                                            <img src="./images/review5item.png" alt="섀도우 팔레트 11 너무 예뻐요">
+                                            <div class="text">
+                                                <strong>섀도우 팔레트 11 너무 예뻐요</strong>
+                                                <p><em>평점 </em>4.7 <em>리뷰 </em>848개</p>
+                                            </div>
+                                        </div>
+                                        <p class="txt">배송도 빠르고 색상도 예쁘고 좋아요.</p>
+                                        <p class="star"><i class="xi-star"></i><i class="xi-star"></i><i
+                                                class="xi-star"></i><i class="xi-star"></i><i class="xi-star"></i>
+                                            2023.2.08
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -454,21 +572,26 @@
         <footer id="footer">
             <div class="inner">
                 <h2><a href="#"><img src="./images/logo.jpg" alt="desique"></a></h2>
-                <p class="bold"><a href="#">COMPANY</a><a href="#">AGREEMENT</a><a href="#">PRIVACY POLICY</a><a href="#">GUIDE</a><a href="#">BUSINESS LICENSE</a></p>
-                <p class="bold"><span>02-6959-3877</span><span>OPENNIMG AM10-PM5</span><span>LUNCH BREAK PM12:30-PM1:30</span><span>SAT,SUM OFF</span></p>
+                <div class="sns">
+                    <strong>REGISTER</strong>
+                    <img src="./images/kakao.png" alt="kakao">
+                </div>
+                <p class="bold"><a href="#">COMPANY</a><a href="#">AGREEMENT</a><a href="#">PRIVACY POLICY</a><a
+                        href="#">GUIDE</a><a href="#">BUSINESS LICENSE</a></p>
+                <p class="bold"><span>02-6959-3877</span><span>OPENNIMG AM10-PM5</span><span>LUNCH BREAK
+                        PM12:30-PM1:30</span><span>SAT,SUM OFF</span></p>
                 <p class="bold"><span>기업은행 588-036269-04-017</span><span>예금주:주식회사 데이지크</span></p>
-                <p><span>company (주)데이지크</span><span>owner&admin 연정미</span><span>business no. 769-86-01723</span><span>online-order no. 2020-서울강남-02057</span></p>
+                <p><span>company (주)데이지크</span><span>owner&admin 연정미</span><span>business no.
+                        769-86-01723</span><span>online-order no. 2020-서울강남-02057</span></p>
                 <p><span>address 서울특별시 강남구 테헤란로 447, 10층(삼성동, KB우준타워)</span><span>tel. 02-6959-3877</span></p>
                 <p><span>domestic sales md@byecom.co.kr</span><span>overseas sales juhee.seo@byecom.co.kr</span></p>
                 <p>반품. 서울시 관진구 강변역로2 광진우체국 c동 3층 큐트레이딩 데이지크 tel)02-6959-3877</p>
                 <p>COPYRIGHT (C) 2019 dasique ALL RIGHTS RESERVED / DESIGNED BY GA09 DESIGN</p>
-                <img src="./images/fotter_li.png" alt="brandLogo">
-                <img src="./images/fotter_inipay.png" alt="inipay">
-                <div class="sns">
-                    <strong>REGISTER</strong>
-                    <img src="./images/kakao.png" alt="kakao">
-                    <p><i class="xi-facebook"></i><i class="xi-instagram"></i><i class="xi-youtube"></i></p>
+                <div class="brandImg">
+                    <img src="./images/fotter_li.png" alt="brandLogo">
+                    <img src="./images/fotter_inipay.png" alt="inipay">
                 </div>
+                <div class="brandIcon"><i class="xi-facebook"></i><i class="xi-instagram"></i><i class="xi-youtube"></i></div>
             </div>
             <div class="top"><a href="#">Top</a></div>
         </footer>
@@ -476,6 +599,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/swiper.js"></script>
+    <script src="./js/main.js"></script>
 
     </script>
 </body>
