@@ -20,7 +20,9 @@ textUpperCase(nav)
 const allMenu = document.querySelector('#header .all-menu i');
 const gnb = document.querySelector('#header .nav .gnb');
 const bg = document.querySelector('#header .bg');
-
+const gnbList = document.querySelectorAll('#header .nav .gnb .MenuList');
+const gnbItem = document.querySelectorAll('#header .nav .gnb .MenuList ul');
+const header = document.querySelector('#header')
 allMenu.addEventListener('click',e=>{
     if(e.currentTarget.classList.contains('xi-bars')){
         allMenu.classList.replace('xi-bars','xi-close');
@@ -31,9 +33,34 @@ allMenu.addEventListener('click',e=>{
         gnb.style.display='none';
         bg.style.display='none';
     }
+    gnbItem.forEach(ele=>{
+        ele.classList.remove('on')
+    })
 })
 bg.addEventListener('click',e=>{
     allMenu.classList.replace('xi-close','xi-bars')
     gnb.style.display='none';
     bg.style.display='none';
+    gnbItem.forEach(ele=>{
+        ele.classList.remove('on')
+    })
 })
+
+//메뉴안에 하단메뉴 마우스오버
+
+gnbList.forEach(item=>{
+    item.addEventListener('mouseenter',e=>{
+        let current = e.currentTarget;
+        gnbItem.forEach(ele=>{
+            ele.classList.remove('on');
+        })
+        current.children[1].classList.add('on')
+    })
+})
+header.addEventListener('mouseleave',e=>{
+    gnbItem.forEach(ele=>{
+        ele.classList.remove('on')
+    })
+})
+
+ 

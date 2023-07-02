@@ -30,7 +30,7 @@ var swiper = new Swiper(".myBestSellers", {
         slidesPerView: 3,
         spaceBetween: 30,
     },
-    1024: {
+    1025: {
         slidesPerView: 5,
         spaceBetween: 30,
     },
@@ -71,7 +71,7 @@ var swiper = new Swiper(".myMainReview", {
         slidesPerView: 3,
         spaceBetween: 30,
     },
-    1024: {
+    1025: {
         slidesPerView: 5,
         spaceBetween: 30,
     },
