@@ -18,6 +18,7 @@
     #header .bg{top: 0; height: 100%;z-index: 50;background: #000; opacity: 0.5;display: none;}
     
     /* visual */
+    #visual .visualWrap  .imgbox {overflow: hidden; width: 50%;}
     #visual .swiper-slide  img{width: 100%;left: 0;}
     #visual .swiper-slide .text{ z-index: 1;top: auto; bottom: 4.8876vw;right:5.3763vw}
     #visual .swiper-button-prev,#visual  .swiper-button-prev:after,#visual .swiper-button-next,#visual  .swiper-button-next:after{display: none;}

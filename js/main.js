@@ -55,6 +55,7 @@ gnbList.forEach(item=>{
             ele.classList.remove('on');
         })
         current.children[1].classList.add('on')
+        
     })
 })
 header.addEventListener('mouseleave',e=>{

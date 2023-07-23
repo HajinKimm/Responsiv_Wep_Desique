@@ -26,23 +26,24 @@
 #header .headerLine{width: 100%; height: 2px; background: #C7B0B0;position: absolute;top: 125px;left: 0;}
 
 /* visual */
-#visual{width: 100%;position: relative;height: 900px;}
-#visual .swiper-slide:nth-child(1){background: #FCD0B5;}
-#visual .swiper-slide:nth-child(1) .text span{color: #755B48;}
-#visual .swiper-slide:nth-child(1) .text strong{background: #E97B6A;}
-#visual .swiper-slide:nth-child(2){background: #FBD8DE;}
-#visual .swiper-slide:nth-child(2) .text span, #visual .swiper-slide:nth-child(2) .text strong{color: #BB99B4;}
-#visual .swiper-slide:nth-child(3){background: #D59B75;}
-#visual .swiper-slide:nth-child(3) .text span, #visual .swiper-slide:nth-child(4) .text span{color: #F4E0CF;}
-#visual .swiper-slide:nth-child(3) .text strong{background: #E5C19B;}
-#visual .swiper-slide:nth-child(4){background: #CF9A94;}
-#visual .swiper-slide:nth-child(4) .text strong{background: #996D64;}
-#visual .swiper-slide .text{position: absolute; top: 265px; right: 57%; text-align: center;  }
-#visual .swiper-slide .text span{font-size: 28px; display: block;}
-#visual .swiper-slide .text p{font-size: 48px; color: #fff;margin-bottom: 50px;}
-#visual .swiper-slide .text strong{ padding: 15px 25px;width: 170px;height: 52px;}
-#visual .swiper-slide .text strong a{color: #fff;}
-#visual .swiper-slide  img{position: absolute; left: 50%; top: 0; width: 960px;}
+#visual{position: relative;height: 900px;width: 100%; }
+#visual .swiper-slide:nth-child(1) .visualWrap{background: #FCD0B5;height: 900px;width: 100%;}
+#visual .swiper-slide:nth-child(1) .visualWrap .text span{color: #755B48;}
+#visual .swiper-slide:nth-child(1) .visualWrap .text strong{background: #E97B6A;}
+#visual .swiper-slide:nth-child(2) .visualWrap{background: #FBD8DE;height: 900px;width: 100%;}
+#visual .swiper-slide:nth-child(2) .visualWrap .text span, #visual .swiper-slide:nth-child(2) .text strong{color: #BB99B4;}
+#visual .swiper-slide:nth-child(3) .visualWrap{background: #D59B75;height: 900px;width: 100%;}
+#visual .swiper-slide:nth-child(3) .visualWrap .text span, #visual .swiper-slide:nth-child(4) .text span{color: #F4E0CF;}
+#visual .swiper-slide:nth-child(3) .visualWrap .text strong{background: #E5C19B;}
+#visual .swiper-slide:nth-child(4) .visualWrap{background: #CF9A94;height: 900px;width: 100%;}
+#visual .swiper-slide:nth-child(4) .visualWrap .text strong{background: #996D64;}
+#visual .visualWrap .text{position: absolute; top: 265px; right: 57%; text-align: center;  }
+#visual .visualWrap .text span{font-size: 28px; display: block;}
+#visual .visualWrap .text p{font-size: 48px; color: #fff;margin-bottom: 50px;}
+#visual .visualWrap .text strong{ padding: 15px 25px;width: 170px;height: 52px;}
+#visual .visualWrap .text strong a{color: #fff;}
+#visual .visualWrap  .imgbox {overflow: hidden; width: 960px;height: 900px;}
+#visual .visualWrap  .imgbox img{position: absolute; left: 50%; top: 0; width: 960px;}
 #visual .swiper-button-prev:after, #visual .swiper-rtl .swiper-button-next:after, #visual .swiper-button-next:after, #visual .swiper-rtl .swiper-button-prev:after{color:black;}
 #visual .swiper-button-prev, #visual .swiper-button-prev:after{transform: translateX(20px);}
 #visual .swiper-button-next, #visual .swiper-button-next:after{transform: translateX(-20px);}
